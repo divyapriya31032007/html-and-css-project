@@ -1,0 +1,581 @@
+.header{
+        display: flex;
+        height:54px;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .left{
+        width: 240px;
+        display: flex;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+        padding-left: 15px;
+}
+      .middle{
+        background-color: rgb(0, 0, 0);
+        flex:1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+ }
+      .right{
+        background-color: rgb(0, 0, 0);
+        width:250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .Youtube_logo{
+        margin-bottom: 5px;
+        margin-left: 10px;
+        height: 28px;
+      }
+      .sandwitch2{
+        height:20px;
+      }
+      .searchicon,.microphone,.imgbell{
+        height:27px;
+        border-radius: 15px;
+      }
+     .search,button.bell2,button.micro2{
+      height:40px;
+      border-radius: 20px;
+      border:none;
+      background-color: black;
+     }
+     .searchicon,.microphone{
+      display: flex;
+     }
+     .search{
+        display: flex;
+        align-items: center;
+        max-width: 520px;  /* stops it growing too much */
+        width: 100%;
+        padding-left: 16px;
+        border: 2px rgb(108, 100, 100) solid;
+      }
+
+     button.bell2{
+      margin-left: 1.5px;
+     }
+     button.micro2{
+      margin-left: 14px;
+     }
+      button.create {
+        display: flex;
+        align-items: center;      /* vertical center */
+        justify-content: center; 
+        gap: 6px;       
+        width:90px;  
+        background-color: rgb(36, 35, 35);   
+        color: aliceblue;  
+        margin-top: .4px;
+        padding-right: 13px;
+        border:none;
+        height:40px;  
+      }
+
+     button.bell,button.profile,button.create{
+        height:40px;
+        display: flex;
+        align-items: center;      /* vertical center */
+        justify-content: center;
+        border-radius: 20px;
+        background-color: black;
+        margin-left: 10px;
+        border:none;
+
+      }
+     .imgpro{
+        height:25px
+      }
+     button.create{
+      background-color: rgb(50, 49, 49);
+      width:100px
+}
+     button.bell:hover,button.create:hover,button.profile:hover,button.bell2:hover,button.micro2:hover{
+        background-color: rgb(99, 97, 97);
+    }
+     .add{
+      height: 25px;
+     }
+       .main2{
+        width:1027px;
+        height:900px;
+        flex-direction: row;
+      }
+      .part1,.part2,.part3,.part4,.part5,.part6{
+        height: 120px;
+        cursor:pointer;
+       
+   
+      }
+      .part1:hover,.part2:hover,.part3:hover,.part4:hover,.part5:hover,.part6:hover{
+        background-color:rgb(99, 97, 97) ;
+        transition: 1s;
+
+      }
+      .main{
+        display: flex;
+      }
+      .secondcontainer{
+        width:439px
+      }
+      .image1{
+        width: 160px;
+        height: 90px;
+        object-fit: cover;
+        border-radius: 6px;
+}
+      .part1,.part2,.part3,.part4,.part5,.part6{
+        display: flex;
+      
+        align-items: center;
+        gap: 10px;
+        padding: px;
+}
+      
+      .thumnail{
+        width:90px;
+      }
+      .thumb{
+        
+        max-width:980px;
+        height:630px;
+        width:100%;
+        margin-right: 17px;
+        margin-left: 30px;
+        border-radius: 13px;
+
+      }
+      .ad{
+        
+        height:160px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+
+      }
+      .adsimage{
+        width:429px;
+        height:90px;
+      
+      }
+      .ad2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       
+          
+        height:50px;
+    
+      }
+      .adprofile{
+        margin-top: 10px;
+        width:40px;
+        height: 40px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+       
+        border-radius: 20px;
+      }
+      .visit-button{
+        width: 80px;
+        height: 34px;
+        border-radius: 40px;
+        border:none;
+        color:antiquewhite;
+        background-color: rgb(89, 89, 89);
+      }
+      .visit-button:hover{
+        background-color: rgb(106, 106, 106);
+       
+      }
+      .downbutton{
+        width:30px;
+        border-radius: 15px;
+        height: 30px;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 14px;
+        border:none;
+        
+        background-color:  rgb(65, 65, 65);;
+      }
+      .downbutton:hover{
+        background-color: rgb(116, 116, 116);
+        transition-duration: 1s;
+      }
+      .down{
+        width: 20px;
+      
+      }
+      .text2{
+        color:antiquewhite;
+
+        margin-left:-27px;
+      }
+      .part1details2{
+        color: white;
+      }
+      .video-title{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 430;
+        margin-bottom: 9px;
+     
+  
+
+
+      }
+     
+      .channel-name,.video-stats{
+        font-family: 'Roboto', sans-serif;
+        font-size: small;
+        color: rgb(141, 141, 141);
+        
+    
+  
+      }
+      .part1details2 p{
+        margin: 0;
+      }
+
+      .part1,.part2,.part3,.part4,.part5,.part6{
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        padding: px;
+        background-color: black;
+
+      }
+      
+      .part1details2{
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        width:230px;
+     
+      }
+      .menu-but{
+        width:30px;
+        height:30px;
+        font-size: 22px;   
+        color: white;
+        cursor: pointer;
+        border-radius: 20px;
+        border:none;
+        padding-top: 3px;
+        background-color: black;
+      }
+      .menu-but:hover{
+        background-color: rgb(97, 96, 96);
+      }
+      .current-video-stats{
+        margin-left: 30px;
+      }
+      .current-video-profile{
+        width:40px;
+        height: 40px;
+        border-radius: 30px;
+      }
+      .current-stats{
+        margin-top:0px;
+      }
+      .description{
+        display: flex;
+        align-items: center;
+        margin-top:px;
+        
+       
+        
+      }
+      
+      .des-midd{
+        margin-left: 40px;
+        display: flex;
+      }
+      .like {
+        width: 90px;
+        height: 30px;
+        display: flex;              /* IMPORTANT */
+        align-items: center;
+        gap: 6px;                   /* space between icon & text */
+}
+
+      .dislike {
+        width: 1px;
+        height: 30px;
+      }
+
+      .likeimg {
+        width: 30px;
+        padding: 0;              
+        margin: 0;
+      }
+
+      .dislikeimg {
+        width: 30px;
+      }
+
+      .likeanddislike {
+        display: flex;
+        align-items: center;
+        background-color: black;
+      }
+      .like,.dislike,.share,.ask,.save,.menubut{
+        width:80px;
+        height:35px;
+        border:none;
+        border-radius: 30px;
+        background-color: rgb(41, 40, 40);
+        cursor: pointer;
+        font-family: 'Roboto', sans-serif;
+        font-size: small;
+        font-weight: 800;
+        color: white;
+        display: flex;
+        align-items: center;
+
+      }
+      .bell12icon,.join-button{
+        width:70px;
+        border-radius: 50px;
+        height:35px;
+        border:none;
+        gap: 3px;
+        cursor: pointer;
+       
+      }
+      .like:hover,.dislike:hover,.share:hover,.ask:hover,.save:hover,.menubut:hover,.bell12icon:hover,.join-button:hover{
+        background-color: rgb(69, 69, 69); ;
+
+      }
+      .bellimg{
+        width: 25px;
+        padding-right:15x;
+      }
+      .bell12icon{
+        width:70px;
+        background-color: rgb(41, 40, 40);
+        display: flex;
+        align-items: center;
+      }
+      .down{
+        width:20px;
+        padding-left: 7px;
+       
+       
+      }
+      .des-midd,.des-last{
+        display: flex;
+        gap:3px;
+      }
+      .like-dislike {
+        display: flex;
+      }
+      .dislike{
+        width:50px;
+      }
+
+      .like-dislike button {
+        margin: 0;
+      }
+      .like {
+        border-radius: 20px 0 0 20px;
+      }
+      .dislike {
+        border-radius: 0 20px 20px 0;
+        border-left: 1px solid #ccc;
+      }
+      
+      .shareimg{
+        width: 25px;
+      }
+      .askimg{
+        width:25px;
+        margin-right: 10px;
+      }
+      .ask{
+        display: flex;
+        align-items: center;
+      }
+      .saveimg,.menu{
+        width:25px;
+        margin-right: 5px;
+       
+      }
+      .menubut{
+        width:35px;
+        display: flex;
+        align-items: center;
+      }
+      .menu{
+        width:px;
+        margin-left: 0px;
+        display: flex;
+        align-items: center;
+      }
+      .des-last{
+        margin-left: 100px;
+      }
+     
+     .but{
+        font-family: 'Roboto', sans-serif;
+        font-size: small;
+        font-weight: 300;
+     }
+     .down{
+      width:40px;
+      display: flex;
+      align-items: center;
+      padding-right: 7px;
+     }
+     .header{
+        display: flex;
+        justify-content: space-around;
+        height:48px;
+      
+        width: 100%;        /* responsive */
+        max-width: 1500px;
+      
+        background-color: rgb(7, 6, 6);
+        align-items: center;
+      }
+     
+      .left{
+        width:90px;
+        margin-left: 0px;
+      }
+      .sandwitch2,.Youtube_logo,.create,.add{
+        height:24px;
+      }
+      .add{
+        height: 24px;
+      }
+      .create{
+        border-radius: 20px;
+        height: 30px;
+        
+      }
+      .add{
+        background-color: rgb(8, 3, 3);
+
+      }
+       .search{
+        border: 2px solid #656666;
+        color:white;
+        padding-left:16px;
+        width: 400px;
+        max-width: fit-content;
+      }
+        .search {
+        flex: 1;              
+        min-width: 120px;    
+        max-width: 500px;     
+        padding: 8px;
+}
+      
+      .searchicon,.microphone,.imgbell{
+        height:27px;
+        border-radius: 15px;
+      }
+      .search,.middle {
+        display: flex;
+        flex: 1;          
+        max-width: 600px;
+        margin: 0 20px;   
+        align-items: center;
+}
+      .searchicon{
+        margin-left: px;
+        margin-top: 2px;
+      }
+      .search {
+        flex: 1;                
+        min-width: 120px;      
+        padding: 8px 16px;
+        border: 2px solid #656666;
+        background-color: black;
+        color: white;
+}
+    
+      
+      button.create {
+        display: flex;
+        align-items: center;      /* vertical center */
+        justify-content: space-between; 
+        gap: 6px;       
+        width:90px;  
+        background-color: rgb(36, 35, 35);   
+        color: aliceblue;  
+        margin-top: .4px;
+        padding-right: 13px;
+        border:none;
+      
+        
+      }
+      button.bell{
+        height:30px;
+        display: flex;
+        align-items: center;      /* vertical center */
+        justify-content: center;
+        border-radius: 14px;
+        background-color: black;
+        margin-left: 10px;
+
+      }
+      .imgpro{
+        height:25px
+      }
+      button.profile{
+
+        height:30px;
+        border-radius: 19px;
+        background-color: black;
+        margin-left: 7px;
+      }
+      .right{
+        display: flex;
+        width:190px;
+      }
+      .left{
+        width:120px;
+        margin-left: 19px;
+        display: flex;
+      }
+      .sandwitch2{
+        height:20px
+      }
+      .search{
+        border: 2px solid #656666;
+        color:white;
+        padding-left:16px;
+      }
+      button.bell,button.profile{
+        border: none;
+      }
+      .search::placeholder{
+        padding-left:7px;
+        color: rgb(164, 162, 160);
+
+      }
+      button.bell:hover,button.create:hover,button.profile:hover,button.bell2:hover,button.micro2:hover{
+        background-color: rgb(70, 69, 69);
+      }
+      button.bell2{
+        margin-left:2px;
+        border-radius: 70px;
+        width:40px;
+        height:36px;
+        background-color: black;
+        border:none;
+      }
+      button.micro2{
+        margin-left: 20px;
+        border-radius: 70px;
+        width:40px;
+        height:36px;
+        background-color: black;
+        border:none;
+      }
